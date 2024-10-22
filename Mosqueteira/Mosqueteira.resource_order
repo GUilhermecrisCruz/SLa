@@ -23,6 +23,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Entidade","order":4,"path":"objects/Entidade/Entidade.yy",},
+    {"name":"spr_cachorro_run","order":1,"path":"sprites/spr_cachorro_run/spr_cachorro_run.yy",},
     {"name":"spr_Ground","order":1,"path":"sprites/spr_Ground/spr_Ground.yy",},
     {"name":"spr_idle","order":3,"path":"sprites/spr_idle/spr_idle.yy",},
     {"name":"spr_jump","order":1,"path":"sprites/spr_jump/spr_jump.yy",},
