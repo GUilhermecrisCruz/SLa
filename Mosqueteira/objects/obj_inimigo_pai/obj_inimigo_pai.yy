@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_inimigo_pai",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_inimigo_pai",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Coisas_importantes",
+    "path":"folders/Objetos/Coisas_importantes.yy",
   },
   "parentObjectId":{
     "name":"obj_entidade",
@@ -33,13 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_idle",
-    "path":"sprites/spr_idle/spr_idle.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_idle",
-    "path":"sprites/spr_idle/spr_idle.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -10,6 +10,7 @@
     {"name":"Linhas do tempo","order":7,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":8,"path":"folders/Objetos.yy",},
     {"name":"enemigos","order":2,"path":"folders/Objetos/enemigos.yy",},
+    {"name":"Coisas_importantes","order":5,"path":"folders/Objetos/Coisas_importantes.yy",},
     {"name":"Itens","order":3,"path":"folders/Objetos/Itens.yy",},
     {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
@@ -22,7 +23,8 @@
     {"name":"Tiles","order":3,"path":"folders/Sprites/Tiles.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Entidade","order":4,"path":"objects/Entidade/Entidade.yy",},
+    {"name":"obj_inimigo_pai","order":1,"path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},
+    {"name":"spr_cachorro_hurt","order":2,"path":"sprites/spr_cachorro_hurt/spr_cachorro_hurt.yy",},
     {"name":"spr_cachorro_run","order":1,"path":"sprites/spr_cachorro_run/spr_cachorro_run.yy",},
     {"name":"spr_Ground","order":1,"path":"sprites/spr_Ground/spr_Ground.yy",},
     {"name":"spr_idle","order":3,"path":"sprites/spr_idle/spr_idle.yy",},

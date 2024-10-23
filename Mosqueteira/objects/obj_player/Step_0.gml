@@ -32,10 +32,26 @@ if (_ground)
 		sprite_index = spr_idle;
 	}
 }
-else
+else// nao to no chao
 {
+	if (velv < 0)
+	{
 	//pulo anim	
-	sprite_index = spr_jump;
+	sprite_index = spr_jump;		
+	}
+	else
+	{//colliao inimigo 
+		var _inimigo = instance_place(x, y +1 , obj_inimigo_pai);
+		
+		if (_inimigo)//cair no inimigo
+		{
+			//subir no ar
+			velv = -vel_jump
+			//avisando que o inimigo levou dano do player
+			_inimigo.dano = true;
+		}
+	}
+
 	velv += grav;
 	if (velh != 0)
 	{
